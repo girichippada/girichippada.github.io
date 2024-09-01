@@ -24,4 +24,4 @@ deploy:
   name: Giri Babu Chippada
   target-branch: master
   on:
-    branch: development
+    branch: master
