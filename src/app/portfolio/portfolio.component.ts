@@ -14,9 +14,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
-  @ViewChild('portfolioHeader') portfolioHeaderRef: ElementRef;
-  @ViewChild('portfolioArea') portfolioAreaRef: ElementRef;
-  @ViewChild('portfolioSelectionArea') portfolioSelectionAreaRef: ElementRef;
+  @ViewChild('portfolioHeader', { static: true }) portfolioHeaderRef: ElementRef;
+  @ViewChild('portfolioArea', { static: true }) portfolioAreaRef: ElementRef;
+  @ViewChild('portfolioSelectionArea', { static: true }) portfolioSelectionAreaRef: ElementRef;
 
   animatedTypingText = '🙋 Hey, sort my projects by clicking the categories. ';
 

@@ -4,37 +4,37 @@ export const SKILLS_DATA: ISkill[] = [
   {
     type: 'Programming Language',
     names: [
-      'C', 'C#', 'JavaScript', 'TypeScript', 'Python'
+      'Java', 'JavaScript', 'TypeScript'
     ]
   },
   {
     type: 'Backend',
     names: [
-      'Node.js & Express.js', 'ASP.NET Core/MVC/WebAPI'
+      'Node.js & Express.js', 'Java'
     ]
   },
   {
     type: 'Frontend',
     names: [
-      'Angular', 'React.js', 'CSS', 'HTML', 'jQuery'
+      'Angular', 'CSS', 'HTML'
     ]
   },
   {
     type: 'Database & ORM',
     names: [
-      'SQL Server', 'MongoDB', 'Entity Framework', 'Mongoose'
+      'Oracle', 'Postgres', 'DynamoDB', 'SnowFlake'
     ]
   },
   {
     type: 'Cloud',
     names: [
-      'Azure Web Service & Storage', 'Firebase DB & Functions', 'Heroku'
+      'Amazon Web Service'
     ]
   },
   {
     type: 'Testing',
     names: [
-      'Jest', 'Mocha'
+      'JUnit', 'Jasmine'
     ]
   },
   {
