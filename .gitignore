@@ -4,6 +4,8 @@
 /backup
 *.log
 *.xd
+yarn.lock
+package-lock.json
 
 # compiled output
 /dist
